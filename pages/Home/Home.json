@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 810,
+          "bottomRow": 820,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -31,6 +31,14 @@
             {
               "id": "Home_CountOfFill",
               "name": "CountOfFill",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Home_GetReport",
+              "name": "GetReport",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],
