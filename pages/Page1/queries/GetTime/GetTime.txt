@@ -1,0 +1,3 @@
+SELECT Users.name, SUM(stude) s, SUM(exercise) e, SUM(course) c FROM TimeUse
+JOIN Users on TimeUse.userId=Users.userId
+GROUP By Users.name;

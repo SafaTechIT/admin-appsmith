@@ -15,6 +15,9 @@
   },
   "color": "#EAEDFB",
   "icon": "bar-graph",
+  "unpublishedAppLayout": {
+    "type": "MOBILE"
+  },
   "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
