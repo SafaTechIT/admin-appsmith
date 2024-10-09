@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "Query1",
+    "name": "CountOfFill",
     "datasource": {
       "name": "MySQL",
       "pluginId": "mysql-plugin",
@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT * FROM Users LIMIT 10;",
+      "body": "SELECT Users.name, COUNT(stude) fill FROM TimeUse\nJOIN Users on TimeUse.userId=Users.userId\nGROUP By Users.name\nORDER BY fill DESC;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -26,7 +26,7 @@
         }
       ]
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -38,7 +38,7 @@
     "userPermissions": [],
     "createdAt": "2024-10-09T07:25:12Z"
   },
-  "id": "Home_Query1",
+  "id": "Home_CountOfFill",
   "deleted": false,
   "gitSyncId": "66d76441edc53936732abcf6_b1d737ed-5303-45f8-a6de-40750b4aed85"
 }
