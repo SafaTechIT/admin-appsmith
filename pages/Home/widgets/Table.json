@@ -3,7 +3,7 @@
     "borderColor": "#E0DEDE",
     "isVisibleDownload": false,
     "iconSVG": "/static/media/icon.c4395b694ca4b5a84741345b057b6866.svg",
-    "topRow": 13,
+    "topRow": 0,
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -63,7 +63,7 @@
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 43,
-    "widgetName": "Table1",
+    "widgetName": "Table",
     "defaultPageSize": 0,
     "columnOrder": [
         "name",
@@ -92,7 +92,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "s": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"s\"]))}}",
+            "computedValue": "{{Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"s\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "s",
@@ -123,7 +123,7 @@
             "verticalAlignment": "CENTER"
         },
         "c": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"c\"]))}}",
+            "computedValue": "{{Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"c\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "c",
@@ -154,7 +154,7 @@
             "verticalAlignment": "CENTER"
         },
         "e": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"e\"]))}}",
+            "computedValue": "{{Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"e\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "e",
@@ -185,7 +185,7 @@
             "verticalAlignment": "CENTER"
         },
         "name": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"name\"]))}}",
+            "computedValue": "{{Table.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"name\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "name",

@@ -1,7 +1,7 @@
 {
   "pages": [
     {
-      "id": "Page1",
+      "id": "Home",
       "isDefault": true
     }
   ],
@@ -16,6 +16,9 @@
   "color": "#EAEDFB",
   "icon": "bar-graph",
   "unpublishedAppLayout": {
+    "type": "MOBILE"
+  },
+  "publishedAppLayout": {
     "type": "MOBILE"
   },
   "unpublishedCustomJSLibs": [],
