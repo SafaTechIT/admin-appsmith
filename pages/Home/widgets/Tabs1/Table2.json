@@ -72,7 +72,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 62,
+    "bottomRow": 124,
     "columnWidthMap": {"report": 108},
     "parentRowSpace": 10,
     "hideCard": false,

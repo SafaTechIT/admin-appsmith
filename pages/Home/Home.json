@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 2020,
+          "bottomRow": 2170,
           "containerStyle": "none",
           "snapRows": 124,
           "parentRowSpace": 1,
@@ -47,6 +47,14 @@
             {
               "id": "Home_GetReport",
               "name": "GetReport",
+              "confirmBeforeExecute": false,
+              "pluginType": "DB",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Home_GetScores",
+              "name": "GetScores",
               "confirmBeforeExecute": false,
               "pluginType": "DB",
               "jsonPathKeys": [],

@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "mysql-plugin",
   "unpublishedAction": {
-    "name": "GetTime",
+    "name": "GetScores",
     "datasource": {
       "name": "MySQL",
       "pluginId": "mysql-plugin",
@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "SELECT Users.userId, (SELECT Users.name FROM Users WHERE Users.userId=TimeUse.userId) n,SUM(stude) s, SUM(exercise) e, SUM(course) c FROM TimeUse\nJOIN Users on TimeUse.userId=Users.userId\nGROUP BY Users.userId\nORDER BY Users.userId;",
+      "body": "SELECT Users.name ,Scores.course, Scores.exercise, Scores.study, Scores.userId FROM Scores JOIN Users ON Users.userId=Scores.userId ORDER BY Scores.userId;",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {
@@ -36,9 +36,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-10-09T07:22:19Z"
+    "createdAt": "2024-10-16T16:45:12Z"
   },
-  "id": "Home_GetTime",
+  "id": "Home_GetScores",
   "deleted": false,
-  "gitSyncId": "66d76441edc53936732abcf6_bd7c1167-0c99-4719-a71f-407a3484a8c8"
+  "gitSyncId": "66d76441edc53936732abcf6_62e357ec-7f1e-4f82-88fd-bdd083c70dc5"
 }
