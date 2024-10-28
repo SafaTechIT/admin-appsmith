@@ -1,31 +1,40 @@
 {
+  "appIsExample": false,
+  "appLayout": {
+    "type": "MOBILE"
+  },
+  "applicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  },
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "color": "#EAEDFB",
+  "evaluationVersion": 2,
+  "icon": "bar-graph",
   "pages": [
     {
       "id": "Home",
       "isDefault": true
     }
   ],
-  "viewMode": false,
-  "appIsExample": false,
-  "unreadCommentThreads": 0,
-  "unpublishedApplicationDetail": {
-    "appPositioning": {
-      "type": "FIXED"
-    }
-  },
-  "color": "#EAEDFB",
-  "icon": "bar-graph",
   "unpublishedAppLayout": {
     "type": "MOBILE"
   },
-  "publishedAppLayout": {
-    "type": "MOBILE"
-  },
-  "unpublishedCustomJSLibs": [],
-  "publishedCustomJSLibs": [],
-  "evaluationVersion": 2,
-  "applicationVersion": 2,
-  "collapseInvisibleWidgets": true,
-  "isManualUpdate": false,
-  "deleted": false
+  "unpublishedApplicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    },
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
+    }
+  }
 }
